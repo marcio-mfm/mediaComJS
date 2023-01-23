@@ -38,7 +38,7 @@ bottonInclude.addEventListener('click',function(){
     function adicionaBotaoReset () {
         const botaoReset = document.createElement('button');
         botaoReset.textContent = 'Reset';
-        botaoReset.className = 'btn btn-outline-primary'; 
+        botaoReset.className = "btn btn-outline-light"; 
 
         botaoReset.addEventListener('click',function(){
             valMedia.textContent ='';
