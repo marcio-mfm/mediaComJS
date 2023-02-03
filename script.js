@@ -55,3 +55,17 @@ bottonInclude.addEventListener('click',function(){
 let frase = `Isso é concatenação com a variável ${result}`;
 console.log(result);
 console.log(frase);*/
+
+//Muda Cor do Fundo
+
+function changecolor(){
+    const menu = document.querySelector('#colors');
+    const colors = menu.options[menu.selectedIndex].value;
+
+    document.body.style.background = colors;
+    if (colors == 'blue' || colors == 'black'|| colors == 'green'){
+        document.body.style.color = 'white';
+        } else {
+        document.body.style.color = 'black';
+        }
+}
